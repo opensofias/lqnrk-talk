@@ -5,7 +5,13 @@
 	scroll-snap-stop: always;*/
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
+	:root {
+		font-size: 16pt;
+	}
+}
+
+@media (max-width: 500px) {
 	:root {
 		font-size: 12pt;
 	}
