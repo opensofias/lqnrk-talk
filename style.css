@@ -1,0 +1,68 @@
+:root {
+	font-family: SourceSansPro;
+	font-size: 24pt;
+	/*scroll-snap-type: y proximity;
+	scroll-snap-stop: always;*/
+}
+
+head, title {
+	display: block;
+}
+
+title {
+	display: flex;
+	position: fixed;
+	right: 10vh;
+	bottom: 0;
+	font-size: 7.5vh;
+	width: 50vh;
+	height: 7.5vh;
+	text-align: center;
+	vertical-align: middle;
+	flex-direction: row;
+	transform-origin: bottom right;
+	transform: rotate(.25turn);
+	line-height: 1;
+}
+
+title::before {
+	margin-left: -10vh;
+	margin-right: 2.5vh;
+	width: 7.5vh;
+	height: 7.5vh;
+	background-image: url("lqnrk_logo.svg");
+	background-size: 7.5vh;
+	content: "";
+}
+
+body > * {
+	min-height: 100vh;
+	scroll-snap-align: start end;
+}
+
+body {
+	width: calc(100% - 2em - 10vh);
+	margin: 0 1em;
+}
+
+h1 {
+	display: flex;
+	font-size: 4em;
+	line-height: 1;
+	align-items: center;
+	margin: 0;
+}
+
+h1::before {
+	margin-right: .25em;
+	width: 1em;
+	height: 1em;
+	background-image: url("lqnrk_logo.svg");
+	background-size: 1em;
+	content: "";
+}
+
+section img {
+	max-height: 75vh;
+	float: right;
+}

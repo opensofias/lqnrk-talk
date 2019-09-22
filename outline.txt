@@ -1,0 +1,28 @@
+liquid anarchy
+
+proposal, not implemented.
+
+* publish/subscribe model for policies
+* designed for completely distributed p2p systems
+* liquid/delegate democracy meets panarchy/polycentric law
+
+notable features
+
+* every participants runs an election
+* owner can veto every decision and introduce policies
+* realtime decision making
+* no inherent equality
+* people can own multiple nodes
+* nodes can be owned by organisations, robots or dogs
+* virtual nodes
+
+examples of policies
+
+* economic sanctions/subsidies
+* distributed recommendation systems
+* managing collectively owned systems
+
+wanna talk about it?
+sofias@radikalismus.com
+
+released into the public domain. copyright must be stopped.
